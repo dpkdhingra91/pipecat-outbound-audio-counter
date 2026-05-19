@@ -1,0 +1,17 @@
+[project]
+name = "pipecat-outbound-audio-counter"
+version = "0.1.0"
+description = "Pipecat diagnostic processor — counts outbound TTS audio per turn, warns on silent turns (TTS acknowledged but produced 0 audio)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Deepak Dhingra", email = "dpkdhingra91@gmail.com"}]
+keywords = ["pipecat", "voice-agents", "ai", "tts", "observability"]
+dependencies = ["pipecat-ai>=0.0.50"]
+
+[project.urls]
+Homepage = "https://github.com/dpkdhingra91/pipecat-outbound-audio-counter"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
