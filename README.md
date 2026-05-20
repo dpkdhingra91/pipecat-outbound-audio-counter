@@ -66,6 +66,12 @@ if audio_counter.silent_streak >= 3:
     ...
 ```
 
+## Related projects
+
+- 🎯 [`pipecat-sarvam-azure-starter`](https://github.com/dpkdhingra91/pipecat-sarvam-azure-starter) — canonical voice pipeline this diagnostic was extracted from.
+- 🎙️ [`pipecat-bot-speaking-observer`](https://github.com/dpkdhingra91/pipecat-bot-speaking-observer) — turn-gate orchestration sibling.
+- 🛡️ [`pipecat-content-filter-fallback`](https://github.com/dpkdhingra91/pipecat-content-filter-fallback) — RAI false-positive guard sibling.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
